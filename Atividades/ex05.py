@@ -1,6 +1,10 @@
-num = input("Digite um número inteiro:")
-num = int(num)
+a = input ("Digite um valor para o cateto a:")
+a = float (a)
+b = input ("Digite um valor para o cateto b:")
+b = float (b)
 
-dobro = 2*num 
+import math
 
-print("O dobro de", num, "é", dobro)2
+hipotenusa = math.sqrt (a**2 + b**2)
+
+print ("A hipotenusa é:" , hipotenusa)
